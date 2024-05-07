@@ -7,15 +7,68 @@
 </head>
 <body>
     <form action="ejemplo.php" method="get">
-        <p>Nombre :<input type="text" name="nombre" size="40"></p>
-        <p>Año de Nacimiento :<input type="text" name="nacido" min="1900"></p>
+        <p>Nombre :<input type="text" name="nombre" size="40" maxlength="20" required></p>
+        <p>Año de Nacimiento :<input type="text" name="nacido" min="1900" minlength="6"></p>
         <p>Sexo :
-            <input type="radio" name="h" value="H">Hombre
-            <input type="radio" name="m" value="M">Mujer</p>
+            <input type="radio" name="hm" value="H">Hombre
+            <input type="radio" name="hm" value="M">Mujer</p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Borrar">
         </p>
+    </form>
+    <hr>
+    <form action="ejemplo.php" method="get">
+        <p>Nombre :<input type="text" name="nombre" size="40" maxlength="20" required></p>
+        <p>Apellidos :<input type="text" name="Apellidos" min="1900" minlength="6"></p>
+        <p>Sexo :
+            <input type="radio" name="hm" value="H">Hombre
+            <input type="radio" name="hm" value="M">Mujer</p>
+            <p>Fecha Nacimiento :<input type="date" name="nacido"></p>
+            <p>Telefono:<input type="tel" name="Telefono"></p>
+            <table>
+                
+                <tr>
+                    <td rowspan="3" style="padding: 0px;">Cursos:</td>
+                    <td><input type="checkbox" name="lenguajes">html</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="lenguajes">php</td>
+                </tr>
+                <tr>
+
+                        <td><input type="checkbox" name="lenguajes">html</td>
+                </tr>
+                </table>
+            <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+    <hr>
+    <form action="ejemplo.php" method="get">
+        <p>Nombre :<input type="text" name="Nombre" required></p>
+        <p>Apellidos:<input type="text" name="Apellidos"></p>
+        <p>Comentarios:<br>
+            <textarea name="Comentarios" id="Comentarios" placeholder="Lo que pienses"></textarea>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+    <hr>
+    <form action="ejemplo.php" method="get">
+        <p>Futbolista : <select name="Futbolista">
+            <option></option>
+            <option>Messi</option>
+                <option>Cr7</option>
+                <option>Joao</option>
+        </select>
+        <p>Futbolista 2: <select name="Futbolista">
+            <option>Messi</option>
+                <option selected>Cr7</option>
+                <option>Joao</option>
+        </select>
     </form>
 </body>
 </html>
