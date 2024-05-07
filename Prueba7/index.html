@@ -60,15 +60,22 @@
     <form action="ejemplo.php" method="get">
         <p>Futbolista : <select name="Futbolista">
             <option></option>
-            <option>Messi</option>
-                <option>Cr7</option>
-                <option>Joao</option>
-        </select>
+            <option value="Messi">Messi</option>
+                <option value="Cr7">Cr7</option>
+                <option value="Joao">Joao</option>
+        </select></p>
         <p>Futbolista 2: <select name="Futbolista">
-            <option>Messi</option>
-                <option selected>Cr7</option>
-                <option>Joao</option>
-        </select>
+            <option value="Messi">Messi</option>
+                <option value="Cr7" selected>Cr7</option>
+                <option value="Joao">Joao</option>
+        </select></p>
+        <p>Futbolista 3: <select name="Futbolist[]" size="5" multiple>
+            <option value="Messi">Messi</option>
+                <option value="Cr7">Cr7</option>
+                <option value="Joao">Joao</option>
+                <option value="Piero">Piero</option>
+                <option value="MonoBurgos">MonoBurgos</option>
+        </select></p>
     </form>
 </body>
 </html>
