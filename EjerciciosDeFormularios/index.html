@@ -6,13 +6,60 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="#" method="post">
+    <form action="#" method="get">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
         <label for="email">Correo Electronico:</label>
         <input type="email" id="email" name="email" required><br><br>
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <hr>
+    <form action="#" method="get">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+        <label for="email">Correo Electronico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Registrar">
+    </form>
+    <hr>
+    <form action="#" method="get">
+        <P>¿Que lenguaje de programacion prefieres?</P>
+        <input type="radio" id="python" name="lenguaje" value="Python">
+        <label for="python">Python</label>
+        <input type="radio" id="javascript" name="lenguaje" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <input type="radio" id="java" name="lenguaje" value="Java">
+        <label for="java">Java</label><br>
+        <P>¿Cual es tu nivel de esperiencia?</P>
+        <input type="radio" id="principiante" name="experiencia" value="Principiante">
+        <label for="Principiante">Principiante</label>
+        <input type="radio" id="intermedio" name="experiencia" value="Intermedio">
+        <label for="intermedio">Intermedio</label>
+        <input type="radio" id="avanzado" name="experiencia" value="Avanzado">
+        <label for="avanzado">Avanzado</label><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <hr>
+    <form action="#" method="get">
+        <label for="frutas">Selecciona tus frutas favorias:</label><br>
+        <select id="frutas" name="frutas[]" multiple>
+            <option value="manzana">Manzana</option>
+            <option value="banana">Banana</option>
+            <option value="naranja">Naranja</option>
+            <option value="uva">Uva</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <hr>
+    <form action="#" method="get">
+       <label for="fecha">Fecha de Nacimiento</label>
+       <input type="date" id="fecha" name="fecha" pattern="dd\mm\yyyy"><br><br>
+       <label for="hora">Hora de preferecia</label>
+       <input type="time" id="hora" name="hora"><br><br>
         <input type="submit" value="Enviar">
     </form>
 </body>
