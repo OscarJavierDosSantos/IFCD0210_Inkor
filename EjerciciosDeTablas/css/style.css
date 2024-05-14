@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table{
     width: 100%;
     border: black 1px solid;
@@ -10,4 +11,18 @@ tr, td {
     padding: 0.3em;
     caption-side: bottom;
     border: black 1px solid;
+=======
+table{
+    width: 100%;
+    border: black 1px solid;
+}
+tr, td {
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    border: black 1px solid;
+>>>>>>> b1a4f276ebd73dd54a5195e4ea39c334d9f73d20
  }

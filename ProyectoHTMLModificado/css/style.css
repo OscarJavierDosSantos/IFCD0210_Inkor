@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .fondo{
 /* Ubicación de la imagen */
 background-image: url(../img/fondo.jpg);
@@ -77,3 +78,84 @@ input[type=submit],input[type=reset]  {
         padding: 10px;
         width: 180px
       }
+=======
+.fondo{
+/* Ubicación de la imagen */
+background-image: url(../img/fondo.jpg);
+/* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+background-position: center center;
+/* Para que la imagen de fondo no se repita */
+background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+background-size: cover;
+}
+.texto{
+    color:antiquewhite;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pie{
+    color:antiquewhite;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    color: white;
+    font-size: 20px;
+}
+.tdMenu {
+    width: 5%;
+    text-align: left;
+    vertical-align: middle;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+table{
+    width: 100%;
+}
+tr, td {
+    width: 30%;
+    text-align: left;
+    vertical-align: middle;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+
+ h1{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+ }
+a:link {
+    font-size:25px;
+    color:antiquewhite;
+}
+a:visited {
+    font-size:25px;
+    color:rgb(218, 250, 215);
+}
+a:hover {
+    font-size:25px;
+    color:red;
+}
+input[type=submit],input[type=reset]  {
+        background-color: #0693cd;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        font-size:16px;
+        font-weight: bold;
+        line-height: 1.4;
+        padding: 10px;
+        width: 180px
+      }
+>>>>>>> b1a4f276ebd73dd54a5195e4ea39c334d9f73d20
