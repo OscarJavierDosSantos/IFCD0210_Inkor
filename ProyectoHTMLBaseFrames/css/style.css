@@ -11,14 +11,14 @@ background-attachment: fixed;
 background-size: cover;
 }
 .texto{
-    color:antiquewhite;
+    color:black;
     font-size: 25px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-stretch: extra-expanded;
 }
 .menu{
-    color: white;
+    color: black;
     font-size: 20px;
     text-align: left;
 }
@@ -42,15 +42,15 @@ table {
  }
 a:link {
     font-size:25px;
-    color:antiquewhite;
+    color:black;
 }
 a:visited {
     font-size:25px;
-    color:rgb(218, 250, 215);
+    color:black;
 }
 a:hover {
     font-size:25px;
-    color:red;
+    color:rgb(0, 8, 255);
 }
 input[type=submit],input[type=reset]  {
         background-color: #0693cd;
