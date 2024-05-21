@@ -1,0 +1,81 @@
+.texto{
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+}
+.oferta{
+    color:red;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+}
+.pie{
+    color:green;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+}
+.nombreDispo{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+.precio{
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
+table {
+    width: 100%;
+ }
+ th, td {
+    width: 30%;
+    text-align: center;
+    vertical-align: middle  ;
+    border-collapse: collapse;
+    padding: 2px;
+    caption-side: bottom;
+ }
+ h1{
+    color:blue;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+ }
+a:link {
+    font-size:25px;
+    color:black;
+}
+a:visited {
+    font-size:25px;
+    color:black;
+}
+a:hover {
+    font-size:25px;
+    color:rgb(0, 8, 255);
+}
+input[type=submit],input[type=reset]  {
+        background-color: #0693cd;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        font-size:16px;
+        font-weight: bold;
+        line-height: 1.4;
+        padding: 10px;
+        width: 180px
+      }
+#soporte,ul,li{
+    color:black;
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+    
+}
