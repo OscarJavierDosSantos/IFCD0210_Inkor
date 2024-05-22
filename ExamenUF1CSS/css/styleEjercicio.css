@@ -1,0 +1,31 @@
+.definicion{
+    color:#00F;
+    background-color: #CFC;
+    font-family: Georgia, Cambria, serif;
+    font-size: 16xp;
+}
+.cabezera{color:#060;}
+
+body{background-color: aquamarine;}
+
+h1{
+    color:#F00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 32xp;
+}
+h2{
+    color:#A00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24xp;}
+strong{
+    font-size: 20px;
+    font-weight:bold;
+}
+mark{
+    color: white;
+    background-color: black;
+    font-style: italic;
+}
+p,li{
+    color:#00F; 
+}
