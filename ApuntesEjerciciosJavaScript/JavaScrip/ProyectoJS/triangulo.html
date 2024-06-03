@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function areaTriangulo(base,altura) {
+            let area;
+            area=(base*altura)/2;
+            alert("El area del triangulo es "+ area); 
+        }
+    </script>
+    <p onmouseover="areaTriangulo(3,4)">Hola Mundo</p><!--al pasar por encima-->
+    <p onblur="areaTriangulo(3,4)">Hola Mundo</p><!--al salir-->
+    <p onClick="areaTriangulo(3,4)">Hola Mundo</p><!--al hacer clic-->
+    <p onfocus="areaTriangulo(3,4)">Hola Mundo</p><!--al entrar-->
+</body>
+</html>
