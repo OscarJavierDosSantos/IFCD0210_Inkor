@@ -4,54 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Document</title>
 </head>
-<body class="text-bg-secondary p-3">
-    <div class="row">
+<body>
+  <div class="row">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container" >
-            <a class="navbar-brand" href="#"><img src="img/favicon.png" alt="Bootstrap" width="30" height="24"></a>
-          </div>
-        <div class="col-md-6"> </div>
-        <div class="container-fluid ">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-            </ul>
-            </form>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/favicon.png" alt="Bootstrap" width="30" height="24"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="col-md-9"></div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     </div>
-
-    <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col-md-2"></div>
-          <div class="col-md-8">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-          </div>
-          <div class="col-md-2"></div>
+  <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="contact_form">
+            <div>			
+              <h1 class="text-dark">Formulario de contacto</h1>
+                <h3 class="text-dark">Escríbenos y en breve los pondremos en contacto contigo</h3>
+                  <form action="submeter-formulario.php" method="post">				
+                    <p>
+                      <label for="nombre" class="text-dark">Nombre<span >*</span></label>
+                        <input type="text" name="introducir_nombre" id="nombre" required placeholder="Escribe tu nombre">
+                    </p>
+                    <p>
+                      <label for="email" class="text-dark">Email<span >*</span></label>
+                        <input type="email" name="introducir_email" id="email" required placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="text-dark">Teléfono</label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>		
+                  
+                    <p>
+                      <label for="website" class="text-dark">Sitio web</label>
+                        <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                    </p>		
+                  
+                    <p>
+                      <label for="asunto" class="text-dark">Asunto<span >*</span></label>
+                        <input type="text" name="introducir_asunto" id="assunto" required placeholder="Escribe un asunto">
+                    </p>		
+                  
+                    <p>
+                      <label for="mensaje" class="text-dark">Mensaje<span >*</span></label>                     
+                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required placeholder="Deja aquí tu comentario..."></textarea> 
+                    </p>	  								
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar" class="btn btn-secondary buttonform"><p>Enviar</p></button>
+    
+                    <p class="text-dark"><span > * </span>los campos son obligatorios.</p>					
+                  </form>
+          </div>	
         </div>
+        </div>
+      <div class="col-md-2"></div>
     </div>
-
-    <script src="js/bootstrap.bundle.min.js"></script>
+  </div>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
