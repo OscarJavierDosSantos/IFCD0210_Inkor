@@ -6,15 +6,12 @@ function enviarForm(nombre,email,asusto,mensaje){
     let asuntoComp=comprobar(asusto);
     let mensajeComp=comprobar(mensaje);
     
-    if (nombreComp==true) {
-        mensajeFinal+="Te falta por incluir el Nombre\n";
-        }if ( emailComp==true) {
-            mensajeFinal+="Te falta por incluir el Email\n";
-        }if ( asuntoComp==true) {
-            mensajeFinal+="Te falta por incluir el Asunto\n";
-        } if ( mensajeComp==true) {
-            mensajeFinal+="Te falta por incluir el Mensaje\n";
-        } else {
+    if (nombreComp==true) {mensajeFinal+="Te falta por incluir el Nombre\n"; }
+    if (emailComp==true) {mensajeFinal+="Te falta por incluir el Email\n";  }
+    if (asuntoComp==true) {mensajeFinal+="Te falta por incluir el Asunto\n"; } 
+    if (mensajeComp==true) {mensajeFinal+="Te falta por incluir el Mensaje\n";} 
+
+    if ( nombreComp==false && emailComp==false && asuntoComp==false && mensajeComp==false){
             mensajeFinal=("Gracias por contactar con nosotros "+nombre.toUpperCase() + 
             "\nLeeremos su mensaje y le responderemos los antes posible ") ;    
         }
