@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/main.js"></script>
+</head>
+
+<body>
+    <!--Inicio Menu Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">LOGO</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#servicio">SERVICIOS</a></li>
+                    <li><a href="#jobs">TRABAJO</a></li>
+                    <li><a href="#registro">REGISTRO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i><!--Icono de las hamburgesa-->
+            </div>
+        </header>
+    </div>
+    <!--Fin Menu Encabezado-->
+    <!--Inicio Seccion Contenido Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <h1>Cristina Soler</h1>
+            <p>Soy asesora de Marketing Digital</p>
+            <p>Mi pasion son los helados</p>
+            <img src="img/helado.jpg" alt="" height="250px" width="250xp">
+  
+        </div>
+    </section>
+    <!--Fin Seccion Contenido Inicio-->
+    <!--Inicio Seccion Contenido Servicio-->
+    <section id="servicio" class="servicio">
+        <div class="contenido-seccion">
+            </p>
+            <div class="fila">
+                <div class="col">
+                    <h3 class="text-center">SERVICIOS</h3>
+                </div>
+                <div class="col">
+                    <div class="contenedor-intereses">
+                        <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/seo.html">SEO</a></div>
+                        <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/sem.html">SEM</a></div>
+                        <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/comunitymanage.html">COMMUNITY MANAGER</a></div>
+                        <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/asesorias.html">ASESORIA</a></div>
+                        <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/cursos.html">CURSOS</a></div>
+                        <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/diseñodigital.html">DISEÑO DIGITAL</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Inicio Seccion TRABAJO-->
+    <section class="jobs" id="jobs">
+        <div class="contenido-seccion">
+            <h2 class="text-center">TRABAJOS</h2>
+            <div class="row">
+              <div class="col-md-4 text-center">
+                  <h1>ASESORIAS</h1>
+                  <img src="img/Asesoria.webp" alt="" class="circulo">
+              </div>
+              <div class="col-md-4 text-center">
+                  <h1>CURSOS</h1>
+                  <img src="img/Curso.png" alt="" class="circulo">
+              </div>
+              <div class="col-md-4 text-center">
+                  <h1>DISEÑO DIGITAL</h1>
+                  <img src="img/diseno-digital.jpg" alt="" class="circulo">
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--FIn Seccion TRABAJO-->
+    <!--Inicio Seccion registro-->
+    <section class="registro" id="registro">
+        <div class="contenido-seccion">
+            <h2>REGISTRO</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <form>				
+                            <p>
+                              <label for="nombre" class="text-ligh">Nombre</label>
+                                <input type="text" name="introducir_nombre" id="nombre"  placeholder="Escribe tu nombre"
+                                pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"/>
+                            </p>
+                            <p>
+                                <label for="apellido" class="text-ligh">Apellido</label>
+                                  <input type="text" name="introducir_nombre" id="apellido"  placeholder="Escribe tu Apellido"
+                                  pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required/>
+                            </p>
+                            <p>
+                                <label for="PASSWORD" class="text-ligh">PASSWORD</label>
+                                  <input type="password" name="introducir_asunto" id="pass"  placeholder="Escribe tu contraseña"
+                                  pattern="[A-Za-z0-9!?-]{8,12}" required/>
+                            </p>
+                            <p>
+                                <label for="SEXO" class="text-ligh">SEXO</label>
+                                <input class="form-check-input" type="radio" id="sexo" required/>F
+                                <input class="form-check-input" type="radio" id="sexo" required/>H
+                            </p>
+                            <p>
+                              <label for="email" class="text-ligh">Email</label>
+                                <input type="email" name="introducir_email" id="email"  placeholder="Escribe tu Email" required/>
+                            </p>	  								
+                          
+                            <button type="submit" name="enviar_formulario" id="enviar" class="btn btn-secondary buttonform" 
+                            onclick="enviarForm(document.getElementById('nombre').value,
+                                                document.getElementById('apellido').value,
+                                                document.getElementById('pass').value,
+                                                document.getElementById('sexo').value,
+                                                document.getElementById('email').value)"><p>Enviar</p></button>
+            
+                                          
+                          </form>
+                    </div>
+
+                </div>
+                <div class="col derecha">
+                    <img src="img/registrp.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin Seccion registro-->
+
+    <!--Inicio Seccion Footer-->
+    <footer class="pie" id="pie">
+        <p>Sigueme en mis redes</p>
+            <a href="https://es.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a><!--Icono de las linkedin-->
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a><!--Icono de las instagram-->
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a><!--Icono de las facebook-->
+            <a href="https://x.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a><!--Icono de las twitter-->           
+    </footer>
+    <!--Fin Seccion Footer-->
+</body>
+
+</html>

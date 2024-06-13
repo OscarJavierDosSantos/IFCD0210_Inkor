@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* te permite deslizar */
+    scroll-behavior: smooth;
+}
+/*Menu*/
+.contenedor-header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1cb698;
+    text-decoration: none;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color:#1cb698;
+}
+.nav-responsive{
+    background-color: #1cb698;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+/*Seccion Inicio*/
+.inicio{
+    background:linear-gradient(to top,rgba(30,35,38,.8),rgba(30,35,38,1)),
+    url(../img/fondo.avif);/*imagen de fondo*/
+    background-size: cover;
+    height: 100vh;
+    color:  white;
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color:#1e2326 ;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #1cb698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1cb698;
+}
+/*Seccion Sobre Mi*/
+.servicio{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+}
+.servicio .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.servicio h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.servicio .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.servicio .contenido-seccion p span{
+    color: #1cb698;
+    font-weight: bold;
+}
+.servicio .fila{
+    display: flex;
+}
+.servicio .fila .col{
+    width: 50%;
+}
+.servicio .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.servicio .fila .col ulñ {
+    list-style: none;
+}
+.servicio .fila .col ul li{
+    margin: 12px 0;
+}
+.servicio .fila .col ul li strong{
+    display: inline-block;
+    color: #1cb698;
+    width: 130px;
+} 
+.servicio .fila .col ul li span{
+    background-color: #1cb698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.servicio .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicio .fila .col .contenedor-intereses .intereses{
+    width: 100px;
+    height: 100px;
+    background-color: #252a2e;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.servicio .fila .col .contenedor-intereses .intereses:hover{
+    background-color: #1cb698;
+}
+.servicio .fila .col .contenedor-intereses .intereses i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/*Secccion jobs*/
+.jobs{
+    background-color: #252a2e;
+    color: white;
+    padding: 50px 20px;
+}
+.jobs .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.jobs .contenido-seccion .circulo{
+    margin-top: 40px;
+    border: 10px solid #1cb698;
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+
+/*Seccion de registro*/
+.registro{
+    background-color:#1e2326;
+    color: white;
+    padding: 50px 20px;
+}
+.registro .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.registro h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.registro .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.registro .fila .col{
+    width: 49%;
+    padding: 0 20px;
+    
+}
+.registro .fila .izquierda{
+    border-right: 2px solid #252a2e;
+}
+.registro .fila .derecha{
+    border-left: 2px solid #252a2e;
+}
+.registro .fila .item{
+    padding: 25px;
+    margin-bottom:30px;
+    background-color: #252a2e;
+    position: relative;
+}
+.registro .fila .item p{
+    line-height: 24px;
+
+}
+
+.registro .fila .izq{
+    border-right: 2px solid #1cb698;
+    margin-right: 20px;
+}
+
+.registro .fila .der{
+    border-left: 2px solid #1cb698;
+    margin-left: 20px;
+}
+.registro .fila .col img{
+    width: 90%;
+    height: 90%;
+}
+/*Seccion de registro*/
+.pie{
+    background-color: #252a2e;
+    color: white;
+    position: relative;
+}
+.pie a {
+    width: 50%;
+    height: 50%;
+}
