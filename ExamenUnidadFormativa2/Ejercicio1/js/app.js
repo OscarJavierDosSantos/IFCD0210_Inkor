@@ -1,6 +1,6 @@
-let gastoAlojamiento=200;
-let gastoAlimentacion=150;
-let gastoEntretenimiento=100;
+let gastoAlojamiento=parseFloat(prompt("Ingrese el conste de Alogamiento"));
+let gastoAlimentacion=parseFloat(prompt("Ingrese el conste de Alimentacion"));
+let gastoEntretenimiento=parseFloat(prompt("Ingrese el conste de Entretenimiento"));
 
 Gastos(gastoAlojamiento,gastoAlimentacion,gastoEntretenimiento);
 
