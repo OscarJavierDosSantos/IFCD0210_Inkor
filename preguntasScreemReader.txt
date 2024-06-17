@@ -1,0 +1,20 @@
+Ejercio 1
+¿para trabjar con Screem reader es preciso disponer de altavoz?
+si
+¿un usuairo ciego puede instalar screem reader?
+no
+¿permite cambio de idioma?
+si
+¿permite cambio de voz?
+Si
+¿Se puede modificar los comandos para desplazarse por la paguina comodamente?
+si
+
+Ejercio 2
+¿la herramienta se dedica a leer el contenido o tabien lo explica?
+solo lee
+cuando utilizas el tabulador para acceder a los enlaces
+¿has entedido  bien donde ete lleva cada enlace?
+si te lo indica
+¿que cambiarias?
+nada
