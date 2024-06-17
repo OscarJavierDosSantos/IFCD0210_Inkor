@@ -18,3 +18,17 @@ cuando utilizas el tabulador para acceder a los enlaces
 si te lo indica
 ¿que cambiarias?
 nada
+
+Actividad 1.1.
+Indica qué tipo de perfil no podría entender las siguientes instrucciones:
+• Pulsa el botón amarillo para acceder.-->Personas con problemas motrices
+• El menú está en la derecha.-->Personas con problemas de orientacion
+• Los errores se indicarán mediante un sonido.-->Personas con problemas auditivas
+Actividad 1.2
+Indica una solución a cada uno de los siguientes desafíos:
+• Usuarios que no pueden ver vídeos.--> Audios del video
+• Usuarios que no pueden escuchar vídeos. --> Subtitulos
+• Los daltónicos no pueden representar bien los colores.--> Escala de grises
+• Usuarios que no pueden utilizar el ratón.-->Moverse con el tab o con una aplicacion de lectura de los ojos
+• Usuarios con dificultades de concentración o comprensión cuando hay párrafos largos.
+-->Lectura del parrafo o resumen del parrafo.
