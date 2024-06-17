@@ -21,28 +21,38 @@
             <div class="logo">
                 <a href="#inicio">LOGO</a>
             </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#servicio">SERVICIOS</a></li>
-                    <li><a href="#jobs">TRABAJO</a></li>
-                    <li><a href="#registro">REGISTRO</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-body-secundary" id="nav">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="#inicio" >INICIO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#servicio">SERVICIOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#jobs">TRABAJO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#registro">REGISTRO</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
             </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i><!--Icono de las hamburgesa-->
-            </div>
         </header>
     </div>
     <!--Fin Menu Encabezado-->
     <!--Inicio Seccion Contenido Inicio-->
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
-            <h1>Cristina Soler</h1>
-            <p>Soy asesora de Marketing Digital</p>
-            <p>Mi pasion son los helados</p>
-            <img src="img/helado.jpg" alt="" height="250px" width="250xp">
-  
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Cristina Soler</h1>
+                    <p>Soy asesora de Marketing Digital</p>
+                    <p>Mi pasion son los helados</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/helado.jpg" alt="" >
+                </div>
+            </div>
         </div>
     </section>
     <!--Fin Seccion Contenido Inicio-->
@@ -60,7 +70,6 @@
                         <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/sem.html">SEM</a></div>
                         <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/comunitymanage.html">COMMUNITY MANAGER</a></div>
                         <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/asesorias.html">ASESORIA</a></div>
-                        <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/cursos.html">CURSOS</a></div>
                         <div class="intereses text-center"><a class="nav-link active" aria-current="page" href="servicios/diseñodigital.html">DISEÑO DIGITAL</a></div>
                     </div>
                 </div>
@@ -73,15 +82,15 @@
             <h2 class="text-center">TRABAJOS</h2>
             <div class="row">
               <div class="col-md-4 text-center">
-                  <h1>ASESORIAS</h1>
+                  <h4>ASESORIAS</h4>
                   <img src="img/Asesoria.webp" alt="" class="circulo">
               </div>
               <div class="col-md-4 text-center">
-                  <h1>CURSOS</h1>
+                  <h4>CURSOS</h4>
                   <img src="img/Curso.png" alt="" class="circulo">
               </div>
               <div class="col-md-4 text-center">
-                  <h1>DISEÑO DIGITAL</h1>
+                  <h4>DISEÑO DIGITAL</h4>
                   <img src="img/diseno-digital.jpg" alt="" class="circulo">
               </div>
             </div>
@@ -99,12 +108,12 @@
                             <p>
                               <label for="nombre" class="text-ligh">Nombre</label>
                                 <input type="text" name="introducir_nombre" id="nombre"  placeholder="Escribe tu nombre"
-                                pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"/>
+                                pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/>
                             </p>
                             <p>
                                 <label for="apellido" class="text-ligh">Apellido</label>
                                   <input type="text" name="introducir_nombre" id="apellido"  placeholder="Escribe tu Apellido"
-                                  pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required/>
+                                  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/>
                             </p>
                             <p>
                                 <label for="PASSWORD" class="text-ligh">PASSWORD</label>
@@ -113,19 +122,23 @@
                             </p>
                             <p>
                                 <label for="SEXO" class="text-ligh">SEXO</label>
-                                <input class="form-check-input" type="radio" id="sexo" required/>F
-                                <input class="form-check-input" type="radio" id="sexo" required/>H
+                                    <input class="form-check-input" type="radio" name="sexo" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">Hombre</label>
+                                    <input class="form-check-input" type="radio" name="sexo" id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">Mujer</label>
+                                
                             </p>
                             <p>
                               <label for="email" class="text-ligh">Email</label>
-                                <input type="email" name="introducir_email" id="email"  placeholder="Escribe tu Email" required/>
+                                <input type="email" name="introducir_email" id="email"  placeholder="Escribe tu Email"
+                                pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required/>
                             </p>	  								
                           
                             <button type="submit" name="enviar_formulario" id="enviar" class="btn btn-secondary buttonform" 
                             onclick="enviarForm(document.getElementById('nombre').value,
                                                 document.getElementById('apellido').value,
                                                 document.getElementById('pass').value,
-                                                document.getElementById('sexo').value,
+                                                document.getElementsByName('sexo').value,
                                                 document.getElementById('email').value)"><p>Enviar</p></button>
             
                                           
