@@ -1,0 +1,14 @@
+12 Errors en la pagina del elmundo.es
+4 X Missing alternative text-->Falta de Texto alternativos
+2 X Linked image missing alternative text-->Falta de Texto alternativos
+2 X Spacer image missing alternative text-->Falta de Texto alternativos
+4 X Empty link-->Falta de Texto alternativos
+
+Contrast Ratio: 8.59:1
+
+Text Size: Normal
+
+Sample
+
+WCAG AA: Pass
+WCAG AAA: Pass
