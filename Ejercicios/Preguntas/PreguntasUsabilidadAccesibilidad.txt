@@ -1,0 +1,17 @@
+1º¿Por qué es importante tener en cuenta la accesibilidad web en un desarrollo web?
+La accesibilidad web es fundamental para garantizar que todas las personas, incluyendo aquellas con discapacidades o dificultades en el acceso a la información, puedan navegar y utilizar los sitios web de manera inclusiva y sin barreras
+2º¿Por qué crees que es importante separar los estilos (CSS) de los contenidos y la estructura del documento (HTML)?
+Mejora la estructura: Al separar el contenido (HTML) del diseño visual (CSS), se logra una estructura más clara y fácil de mantener. Esto facilita las actualizaciones y modificaciones sin afectar el contenido principal.
+Velocidad de carga: Al reducir el tamaño del archivo HTML al eliminar estilos incrustados, se acelera el tiempo de carga de la página. Esto mejora la experiencia del usuario y el posicionamiento en los motores de búsqueda.
+Facilita la colaboración: La separación de HTML y CSS permite un flujo de trabajo colaborativo entre desarrolladores y diseñadores. Cada equipo puede trabajar en su especialidad sin interferir, lo que resulta en un producto final más coherente y refinado.
+3º¿Qué alternativas hay al uso de un CAPTCHA?
+Autenticación de dos factores (2FA),Preguntas y respuestas personalizadas.
+4º¿Cómo es el nuevo reCAPTCHA v3 de Google y qué mejoras trae?
+Introduce una nueva forma de proteger los sitios web sin interrumpir a los usuarios con desafíos interactivos. Aquí están las mejoras clave:
+1.Puntuación en lugar de desafíos: En lugar de CAPTCHAs, reCAPTCHA v3 devuelve una puntuación basada en las interacciones del usuario con el sitio. Esta puntuación determina si el usuario es humano o un bot.
+2.Acciones personalizadas: Puedes especificar nombres de acciones al ejecutar reCAPTCHA, lo que permite un análisis de riesgo adaptativo y una vista detallada de las acciones en la consola de administración.
+3.Sin interrupciones: reCAPTCHA v3 no interrumpe a los usuarios, lo que mejora la experiencia y no afecta las conversiones en tu sitio.
+5º¿Le pondrías un texto alternativo al logotipo de una empresa?
+Agregar un texto alternativo al logotipo de una empresa es una buena práctica para la accesibilidad web.
+6º¿Qué texto alternativo?
+El propio nombre de la empresa
